@@ -1,0 +1,64 @@
+@import "./custom.scss";
+
+.svg-style{
+    height: 20em;
+}
+
+.btn-curved {
+    background-color: goldenrod;
+    border-radius: 1em;
+}
+
+.qty-bar{
+    width: 5em;
+    border: none;
+}
+.card-syle{
+    margin: auto;
+}
+.card-style:hover{
+    transform: translateY(-5px);
+    transition: transform .4s;
+    
+}
+
+.heart-icon{
+    display: float;
+    padding-left: 1em;
+}
+
+.heart-icon:hover{
+    transform: translateY(-10px);
+    transition: transform .2s;
+}
+
+.card{
+    width: 25rem ;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cart-with-0{
+    padding: auto;
+    display: grid;
+    place-items: center;
+}
+
+.cart-img{
+    height: 8em ;
+}
+.artist-icon{
+    border: none ;
+    height: 30px;
+    
+}
+.cart-group-btn{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1em;
+    
+}
+
+.cart-qty{
+    margin: .07em;
+    padding: .02em 1em;
+}
