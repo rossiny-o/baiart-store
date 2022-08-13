@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/baiart-store/static/css/main.f8dc1278.css",
-    "main.js": "/baiart-store/static/js/main.49cf2911.js",
+    "main.js": "/baiart-store/static/js/main.6a6c26cd.js",
     "index.html": "/baiart-store/index.html",
     "main.f8dc1278.css.map": "/baiart-store/static/css/main.f8dc1278.css.map",
-    "main.49cf2911.js.map": "/baiart-store/static/js/main.49cf2911.js.map"
+    "main.6a6c26cd.js.map": "/baiart-store/static/js/main.6a6c26cd.js.map"
   },
   "entrypoints": [
     "static/css/main.f8dc1278.css",
-    "static/js/main.49cf2911.js"
+    "static/js/main.6a6c26cd.js"
   ]
 }
