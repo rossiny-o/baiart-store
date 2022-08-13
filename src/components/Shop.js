@@ -14,7 +14,7 @@ export default function Shop() {
     <div>
       <Header />
 
-      <Container className="my-3 p-5yarn">
+      <Container className="my-3 p-5">
         <Row>
           <Col>
           <Fade in>
@@ -26,7 +26,7 @@ export default function Shop() {
           </Fade>
             <Container>
             
-                <Row className="">
+                <Row>
                 <Fade in delay={200}>
                   <Stack
                     direction="horizontal"

@@ -10,7 +10,7 @@ export default function ItemCard (props) {
     return (
       <Card
       style={{ width: "15rem" }}
-      className="card-style m-3 p-4 border-0 border-bottom rounded-2 shadow"
+      className="m-2 p-3 border-0 border-bottom rounded-2 shadow"
     >
       <img
         className=" mx-auto img-thumbnail bg-warning p-2 border-0 border-bottom rounded rounded-3  shadow"
