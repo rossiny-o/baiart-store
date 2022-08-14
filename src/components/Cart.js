@@ -3,7 +3,7 @@ import "../scss/Main.scss";
 import { Header } from "./Header";
 import { X, CartXFill, Plus, Trash3 } from "react-bootstrap-icons";
 // import { useState } from "react";
-import { data } from "../data/data-info";
+import { data } from "../data-info";
 import {
   Container,
   Row,

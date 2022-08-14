@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Stack } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { data } from "../data/data-info";
+import { data } from "../data-info";
 import { Header } from "./Header";
 import ItemCard from "./ItemCard";
 import { Fade} from "react-animation-components";

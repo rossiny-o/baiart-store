@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './scss/custom.scss' ;
 import { Cart } from "./components/Cart";
 import Products from "./components/Shop";
-import { data } from "./data/data-info";
+import { data } from "./data-info";
 import{ ItemPage} from "./components/ItemPage";
 const { products } = data;
 
