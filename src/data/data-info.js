@@ -1,33 +1,8 @@
-import "./images/pastelbird.jpg";
-import pastelbird2 from "./images/(wall)pastelbird.jpg";
-import homelessbird from "./images/homelessbird.jpg";
-import homelessbird2 from "./images/(wall)homelessbird.jpg";
-import elephantgraveyard from "./images/elephantgraveyard.jpg";
-import elephantgraveyard2 from "./images/(wall)elephantgraveyard.jpg";
-import elephanthorns from "./images/elephanthorns.jpg";
-import elephanthorns2 from "./images/(wall)elephanthorns.jpg";
-import elephlower from "./images/elephlower.jpg";
-import elephlower2 from "./images/(wall)elephlower.jpg";
-import facialfeatures from "./images/facialfeatures.jpg";
-import facialfeatures2 from "./images/(wall)facialfeatures.jpg";
-import thinkingthinker from "./images/thinking.jpg";
-import thinkingthinker2 from "./images/(wall)thinking.jpg";
-import hamster from "./images/hamster.jpg";
-import hamster2 from "./images/(wall)hamster.jpg";
-import gallopinghorse from "./images/gallopinghorse.jpg";
-import gallopinghorse2 from "./images/(wall)gallopinghorse.jpg";
-import vforvendetta from "./images/vforvendetta.jpg";
-import vforvendetta2 from "./images/(wall)vforvendetta.jpg";
-import sheepinwolfsclothing from "./images/sheepinwolfclothing.jpg";
-import sheepinwolfsclothing2 from "./images/(wall)sheepinwolfclothing.jpg";
-import flowerfox from "./images/flowerfox.jpg";
-import flowerfox2 from "./images/(wall)flowerfox.jpg";
-
-const pastelbird = "../images/pastelbird.jpg";
 
 export const data = {
     shipPrice: 4.99,
     artistName:"ThatOneCapArtist",
+    logo: "../images/thatcapartistlogo.png",
     products: [
       {
         id: 1,
@@ -36,8 +11,8 @@ export const data = {
         artist_name: "ThatOneCapArtist",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare arcu. Id neque aliquam vestibulum morbi blandit cursus. Arcu bibendum at varius vel pharetra. Pretium viverra suspendisse potenti nullam. Nisi porta lorem mollis aliquam ut porttitor leo. Bibendum est ultricies integer quis auctor elit sed. Fermentum dui faucibus in ornare quam. Urna condimentum mattis pellentesque id. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Convallis aenean et tortor at risus viverra adipiscing. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Molestie ac feugiat sed lectus vestibulum mattis. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.",
-        image: {pastelbird} ,
-        image2: {pastelbird2} ,
+        image: "../images/pastelbird.jpg",
+        image2: "../images/(wall)pastelbird.jpg",
         price: 34.99
         
       },
@@ -48,8 +23,8 @@ export const data = {
         artist_name: "ThatOneCapArtist",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare arcu. Id neque aliquam vestibulum morbi blandit cursus. Arcu bibendum at varius vel pharetra. Pretium viverra suspendisse potenti nullam. Nisi porta lorem mollis aliquam ut porttitor leo. Bibendum est ultricies integer quis auctor elit sed. Fermentum dui faucibus in ornare quam. Urna condimentum mattis pellentesque id. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Convallis aenean et tortor at risus viverra adipiscing. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Molestie ac feugiat sed lectus vestibulum mattis. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.",
-        image: {homelessbird},
-        image2: {homelessbird2},
+        image: "../images/homelessbird.jpg",
+        image2: "../images/(wall)homelessbird.jpg",
         price: 24.99
       },
       {
@@ -59,8 +34,8 @@ export const data = {
         artist_name: "ThatOneCapArtist",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare arcu. Id neque aliquam vestibulum morbi blandit cursus. Arcu bibendum at varius vel pharetra. Pretium viverra suspendisse potenti nullam. Nisi porta lorem mollis aliquam ut porttitor leo. Bibendum est ultricies integer quis auctor elit sed. Fermentum dui faucibus in ornare quam. Urna condimentum mattis pellentesque id. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Convallis aenean et tortor at risus viverra adipiscing. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Molestie ac feugiat sed lectus vestibulum mattis. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.",
-        image: {elephantgraveyard},
-        image2: {elephantgraveyard2},
+        image: "../images/elephantgraveyard.jpg",
+        image2: "../images/(wall)elephantgraveyard.jpg",
         price: 19.99
       },
       {
@@ -70,8 +45,8 @@ export const data = {
         artist_name: "ThatOneCapArtist",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare arcu. Id neque aliquam vestibulum morbi blandit cursus. Arcu bibendum at varius vel pharetra. Pretium viverra suspendisse potenti nullam. Nisi porta lorem mollis aliquam ut porttitor leo. Bibendum est ultricies integer quis auctor elit sed. Fermentum dui faucibus in ornare quam. Urna condimentum mattis pellentesque id. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Convallis aenean et tortor at risus viverra adipiscing. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Molestie ac feugiat sed lectus vestibulum mattis. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.",
-        image: {elephanthorns},
-        image2: {elephanthorns2},
+        image: "../images/elephanthorns.jpg",
+        image2: "../images/(wall)elephanthorns.jpg",
         price: 29.99
       },
       {
@@ -81,8 +56,8 @@ export const data = {
         artist_name: "ThatOneCapArtist",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare arcu. Id neque aliquam vestibulum morbi blandit cursus. Arcu bibendum at varius vel pharetra. Pretium viverra suspendisse potenti nullam. Nisi porta lorem mollis aliquam ut porttitor leo. Bibendum est ultricies integer quis auctor elit sed. Fermentum dui faucibus in ornare quam. Urna condimentum mattis pellentesque id. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Convallis aenean et tortor at risus viverra adipiscing. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Molestie ac feugiat sed lectus vestibulum mattis. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.",
-        image:{elephlower},
-        image2: {elephlower2},
+        image: "../images/elephlower.jpg",
+        image2: "..images/(wall)eleplower.jpg",
         price: 24.99
       },
       {
@@ -92,8 +67,8 @@ export const data = {
         artist_name: "ThatOneCapArtist",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare arcu. Id neque aliquam vestibulum morbi blandit cursus. Arcu bibendum at varius vel pharetra. Pretium viverra suspendisse potenti nullam. Nisi porta lorem mollis aliquam ut porttitor leo. Bibendum est ultricies integer quis auctor elit sed. Fermentum dui faucibus in ornare quam. Urna condimentum mattis pellentesque id. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Convallis aenean et tortor at risus viverra adipiscing. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Molestie ac feugiat sed lectus vestibulum mattis. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.",
-        image: {facialfeatures},
-        image2: {facialfeatures2},
+        image: "../images/facialfeatures.jpg",
+        image2: "../images/(wall)facialfeatures.jpg",
         price: 29.99
       },
       {
@@ -103,8 +78,8 @@ export const data = {
         artist_name: "ThatOneCapArtist",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare arcu. Id neque aliquam vestibulum morbi blandit cursus. Arcu bibendum at varius vel pharetra. Pretium viverra suspendisse potenti nullam. Nisi porta lorem mollis aliquam ut porttitor leo. Bibendum est ultricies integer quis auctor elit sed. Fermentum dui faucibus in ornare quam. Urna condimentum mattis pellentesque id. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Convallis aenean et tortor at risus viverra adipiscing. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Molestie ac feugiat sed lectus vestibulum mattis. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.",
-        image: {thinkingthinker},
-        image2: {thinkingthinker2},
+        image: "../images/thinking.jpg",
+        image2: "../images/(wall)thinking.jpg",
         price: 34.99
       },
       {
@@ -114,8 +89,8 @@ export const data = {
         artist_name: "ThatOneCapArtist",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare arcu. Id neque aliquam vestibulum morbi blandit cursus. Arcu bibendum at varius vel pharetra. Pretium viverra suspendisse potenti nullam. Nisi porta lorem mollis aliquam ut porttitor leo. Bibendum est ultricies integer quis auctor elit sed. Fermentum dui faucibus in ornare quam. Urna condimentum mattis pellentesque id. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Convallis aenean et tortor at risus viverra adipiscing. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Molestie ac feugiat sed lectus vestibulum mattis. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.",
-        image: {hamster},
-        image2: {hamster2},
+        image: "../images/hamster.jpg",
+        image2: "../images/(wall)hamster.jpg",
         price: 24.99
       },
       {
@@ -125,8 +100,8 @@ export const data = {
         artist_name: "ThatOneCapArtist",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare arcu. Id neque aliquam vestibulum morbi blandit cursus. Arcu bibendum at varius vel pharetra. Pretium viverra suspendisse potenti nullam. Nisi porta lorem mollis aliquam ut porttitor leo. Bibendum est ultricies integer quis auctor elit sed. Fermentum dui faucibus in ornare quam. Urna condimentum mattis pellentesque id. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Convallis aenean et tortor at risus viverra adipiscing. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Molestie ac feugiat sed lectus vestibulum mattis. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.",
-        image: {gallopinghorse},
-        image2: {gallopinghorse2},
+        image: "../images/gallopinghorse.jpg",
+        image2: "../images/(wall)gallopinghorse.jpg",
         price: 19.99
       },
       {
@@ -136,8 +111,8 @@ export const data = {
         artist_name: "ThatOneCapArtist",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare arcu. Id neque aliquam vestibulum morbi blandit cursus. Arcu bibendum at varius vel pharetra. Pretium viverra suspendisse potenti nullam. Nisi porta lorem mollis aliquam ut porttitor leo. Bibendum est ultricies integer quis auctor elit sed. Fermentum dui faucibus in ornare quam. Urna condimentum mattis pellentesque id. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Convallis aenean et tortor at risus viverra adipiscing. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Molestie ac feugiat sed lectus vestibulum mattis. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.",
-        image: {vforvendetta},
-        image2: {vforvendetta2},
+        image: "../images/vforvendetta.jpg",
+        image2: "../images/(wall)vforvendetta.jpg",
         price: 29.99,
       },
       {
@@ -147,8 +122,8 @@ export const data = {
         artist_name: "ThatOneCapArtist",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare arcu. Id neque aliquam vestibulum morbi blandit cursus. Arcu bibendum at varius vel pharetra. Pretium viverra suspendisse potenti nullam. Nisi porta lorem mollis aliquam ut porttitor leo. Bibendum est ultricies integer quis auctor elit sed. Fermentum dui faucibus in ornare quam. Urna condimentum mattis pellentesque id. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Convallis aenean et tortor at risus viverra adipiscing. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Molestie ac feugiat sed lectus vestibulum mattis. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.",
-        image: {sheepinwolfsclothing},
-        image2: {sheepinwolfsclothing2},
+        image: "../images/sheepinwolfclothing.jpg",
+        image2: "../images/(wall)sheepinwolfclothing.jpg",
         price: 19.99,
       },
       {
@@ -158,8 +133,8 @@ export const data = {
         artist_name: "ThatOneCapArtist",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero volutpat sed cras ornare arcu. Id neque aliquam vestibulum morbi blandit cursus. Arcu bibendum at varius vel pharetra. Pretium viverra suspendisse potenti nullam. Nisi porta lorem mollis aliquam ut porttitor leo. Bibendum est ultricies integer quis auctor elit sed. Fermentum dui faucibus in ornare quam. Urna condimentum mattis pellentesque id. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Convallis aenean et tortor at risus viverra adipiscing. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Molestie ac feugiat sed lectus vestibulum mattis. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.",
-        image: {flowerfox},
-        image2: {flowerfox2},
+        image: "../images/flowerfox.jpg",
+        image2: "../images/(wall)flowerfox.jpg",
         price: 19.99,
       }
     ],

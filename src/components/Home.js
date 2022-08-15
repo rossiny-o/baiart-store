@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Col, Row, Container, Carousel } from "react-bootstrap";
 import { Header } from "./Header";
-import { data } from "../data-info";
+import { data } from "../data/data-info";
 import "../scss/Main.scss";
 import { Youtube, Instagram } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
@@ -66,7 +66,7 @@ export default function Home() {
         
       </Container>
 
-      <Container className="">
+      <Container>
         <Row className=" m-4 d-flex justify-content-center">
           <Col md={7} className="">
            <Fade in delay={400}>

@@ -3,7 +3,7 @@ import "../scss/Main.scss";
 import { Header } from "./Header";
 import { X, CartXFill, Plus, Trash3 } from "react-bootstrap-icons";
 // import { useState } from "react";
-import { data } from "../data-info";
+import { data } from "../data/data-info";
 import {
   Container,
   Row,
@@ -95,7 +95,7 @@ export function Cart() {
         <Fade in delay={300}>
           <Row>
             <Col>
-              <Table borderless className="m-2 p-3">
+              <Table borderless className="m-2 p-4">
                 <tbody className="p-3">
                   {items.map((item, index) => {
                     return (
@@ -110,7 +110,7 @@ export function Cart() {
                             <X color="red" size={30} />
                           </Button>
                         </td>
-                        <td className="">
+                        <td className="ps-4">
                           <Image
                             rounded
                             src={item.image}
@@ -119,7 +119,7 @@ export function Cart() {
                           />
                         </td>
 
-                        <td className="d-flex font-monaco  text-primary fw-bold fs-4">
+                        <td className="d-flex font-monaco text-nowrap text-primary fw-bold fs-4">
                           {item.name}
                         </td>
                         <td className="d-flex">
@@ -170,7 +170,7 @@ export function Cart() {
               </div>
 
               <Fade in delay={500}>
-                <div className="m-5 float-start">
+                <div className=" mt-5 float-start">
                   <Button
                     className="rounded-pill mx-2 px-4"
                     variant="danger"

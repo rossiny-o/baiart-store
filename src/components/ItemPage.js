@@ -67,9 +67,10 @@ export function ItemPage(props) {
 
   return (
     <div>
+
       <Header />
 
-      <Container fluid="md" className="p-5">
+      <Container className="mt-5">
         <Row>
           <Link to="/shop" className="text-primary text-decoration-none d-flex">
             <ArrowLeft className="mx-2" />
@@ -77,8 +78,9 @@ export function ItemPage(props) {
           </Link>
         </Row>
         <Row>
-          <Col className="mt-5 mx-auto d-flex align-items-center">
+          <Col md={7} className="m-4 px-2 d-flex align-items-center">
             <Carousel
+              className=""
               activeIndex={index}
               onSelect={handleSelect}
               variant="dark"
@@ -104,22 +106,19 @@ export function ItemPage(props) {
             </Carousel>
           </Col>
 
-          <Col className="m-4 px-5">
+          <Col className="m-4 px-2">
             <Fade in>
               <h3 className="text-primary font-monaco fw-bolder display-4 mt-3 ">
-                {"  "}
                 {product.name}
-                {"  "}
               </h3>
 
-              <h6 className="text-muted fst-italic ">
+              <h6 className="text-muted text-nowrap fst-italic ">
                 by {product.artist_name}
               </h6>
               <h3 className=" d-flex font-monaco fw-bold text-primary ">
                 $ {product.price}
               </h3>
               <h6 className="text-start text-secondary fs-6">
-                {" "}
                 Dummy Text - {product.description}
               </h6>
 
