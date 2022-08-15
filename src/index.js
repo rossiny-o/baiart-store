@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { CartProvider } from "react-use-cart";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './scss/custom.scss' ;
@@ -15,7 +15,7 @@ const { products } = data;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <CartProvider>
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/shop" element={<Products/>} />
@@ -32,7 +32,7 @@ root.render(
         );
       })}
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 </CartProvider>
 );
 
