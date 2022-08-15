@@ -15,7 +15,7 @@ const { products } = data;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <CartProvider>
-  <HashRouter>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/shop" element={<Products/>} />

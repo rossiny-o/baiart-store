@@ -17,12 +17,15 @@ export function Header() {
       expand="lg"
     >
       <Container md={12}>
+        <Link to="/">
         <Navbar.Brand
-          href="/"
+          
           className="mx-5 fs-4 fw-bolder text-nowrap text-warning"
         >
           Baiart
         </Navbar.Brand>
+        </Link>
+       
 
         {/* <label className="d-flex mx-auto">
             <input

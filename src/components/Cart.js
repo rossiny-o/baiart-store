@@ -225,13 +225,7 @@ export function Cart() {
                       </>
                     </Modal.Body>
                     <Modal.Footer className="d-flex float-end">
-                      <Button
-                        variant="danger"
-                        className=" rounded-pill mx-2 px-4"
-                      >
-                        Cancel
-                      </Button>
-
+                      
                       <Button
                         onClick={() => {
                           alert(
