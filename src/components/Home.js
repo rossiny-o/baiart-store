@@ -10,6 +10,7 @@ import {
   FadeTransform,
   
 } from "react-animation-components";
+// import {svgImg } from '//images/009-Painter.svg';
 
 
 export default function Home() {
@@ -36,7 +37,7 @@ export default function Home() {
       <Fade in delay={100}>
         <Container>
           <Row>
-            <img className="svg-style" src={svgImg} alt="Art Pieces" />
+            <img className="svg-style" src={svgImg} alt="svgimage" />
           </Row>
         </Container>
       </Fade>

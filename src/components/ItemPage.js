@@ -66,7 +66,7 @@ export function ItemPage(props) {
   };
 
   return (
-    <div>
+    <>
 
       <Header />
 
@@ -78,7 +78,7 @@ export function ItemPage(props) {
           </Link>
         </Row>
         <Row>
-          <Col md={7} className="m-4 px-2 d-flex align-items-center">
+          <Col md={7} className="m-3 px-3 d-flex float-center">
             <Carousel
               className=""
               activeIndex={index}
@@ -86,29 +86,29 @@ export function ItemPage(props) {
               variant="dark"
               fade
             >
-              <Carousel.Item className="d-flex justify-content-center">
+              <Carousel.Item className="">
                 <img
                   className="bg-warning p-2"
                   src={product.image}
-                  width={400}
+                  width={250}
                   alt="Art1"
                 />
               </Carousel.Item>
 
-              <Carousel.Item className="d-flex justify-content-center">
+              <Carousel.Item className="">
                 <img
                   className="bg-warning p-2"
                   src={product.image2}
                   alt="Art2"
-                  width={400}
+                  width={250}
                 />
               </Carousel.Item>
             </Carousel>
           </Col>
 
-          <Col className="m-4 px-2">
+          <Col className="m-3 px-3">
             <Fade in>
-              <h3 className="text-primary font-monaco fw-bolder display-4 mt-3 ">
+              <h3 className="text-primary font-monaco fw-bolder text-nowrap display-4 mt-3 ">
                 {product.name}
               </h3>
 
@@ -123,7 +123,7 @@ export function ItemPage(props) {
               </h6>
 
               <div className="py-1">
-                <label className="d-flex font-monaco text-primary  float-start mx-3 mt-2">
+                <label className="d-flex font-monaco text-primary  float-start me-3 mt-2">
                   <h5 className="pe-3 fw-bold">Qty: </h5>
                   <select
                     className="border-none fs-5"
@@ -172,6 +172,6 @@ export function ItemPage(props) {
           </Col>
         </Row>
       </Container>
-    </div>
+    </>
   );
 }
