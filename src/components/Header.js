@@ -11,13 +11,13 @@ export function Header() {
   return (
     <Navbar
       sticky="top"
-      variant="dark"
+      variant="light"
       className="py-2"
       bg="primary"
       expand="lg"
     >
-      <Container md={12}>
-        <Link to="/">
+      <Container>
+        <Link to="/" className="text-decoration-none">
         <Navbar.Brand
           
           className="mx-5 fs-4 fw-bolder text-nowrap text-warning"

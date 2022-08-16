@@ -14,7 +14,7 @@ import {
 
 
 export default function Home() {
-  const svgImg = "../images/009-Painter.svg";
+  const svgImg = "images/009-Painter.svg";
 
 
 
