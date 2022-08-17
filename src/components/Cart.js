@@ -84,7 +84,7 @@ export function Cart() {
     <div>
       <Header />
 
-      <Container className="my-3 p-3">
+      <Container className="m-3 p-3">
         <Row>
           <Fade in delay={100}>
             <h3 className="font-monaco fw-bolder display-5 text-primary ms-4">
@@ -104,14 +104,14 @@ export function Cart() {
                         {/* item image */}
                         <td>
                           <Button
-                            size="lg"
+                            size="md"
                             variant="none"
                             onClick={() => removeItem(item.id)}
                           >
-                            <X color="red" size={30} />
+                            <X color="red" size={20} />
                           </Button>
                         </td>
-                        <td className="ps-4">
+                        <td className="px-3">
                           <Image
                             rounded
                             src={item.image}
