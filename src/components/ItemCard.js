@@ -26,8 +26,8 @@ export default function ItemCard (props) {
           <Card.Title className="pt-2 fs-4 text-primary fw-bolder">
             {product.name}
           </Card.Title>
-          <Card.Subtitle className="fs-6 text-muted fst-italic">
-            by {product.artist_name}
+          <Card.Subtitle className="text-muted fst-italic">
+           <small> by {product.artist_name}</small>
           </Card.Subtitle>
 
           <Card.Text className="fs-5 fw-bold fst-italic text-muted">
@@ -35,7 +35,7 @@ export default function ItemCard (props) {
           </Card.Text>
 
           <div>
-
+            <Card.Text className='text-muted'><small>Click for more info...</small></Card.Text>
           </div>
         </div>
       </Card.Body>

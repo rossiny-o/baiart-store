@@ -17,6 +17,7 @@ import {
 import { useCart } from "react-use-cart";
 import { Link } from "react-router-dom";
 import { Fade } from "react-animation-components";
+import { Footer } from "./Footer" ;
 
 export function Cart() {
   const {
@@ -115,7 +116,7 @@ export function Cart() {
                             rounded
                             src={item.image}
                             alt={item.name}
-                            className="cart-img d-flex float-center "
+                            className="cart-img d-flex float-start "
                           />
                         </td>
 
@@ -247,6 +248,7 @@ export function Cart() {
           </Row>
         </Fade>
       </Container>
+      <Footer />
     </div>
   );
 }

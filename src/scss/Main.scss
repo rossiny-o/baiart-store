@@ -1,5 +1,10 @@
 @import "./custom.scss";
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .svg-style{
     height: 20em;
 }
@@ -42,7 +47,8 @@
 }
 
 .cart-img{
-    height: 8em ;
+    height: 6em ;
+    width: 100%;
 }
 .artist-icon{
     border: none ;

@@ -13,6 +13,7 @@ import { Header } from "./Header";
 import { Link } from "react-router-dom";
 import { useCart } from "react-use-cart";
 import { Fade } from "react-animation-components";
+import { Footer } from "./Footer" ;
 
 export function quantityAmounts(min, max) {
   let qty = [];
@@ -172,6 +173,7 @@ export function ItemPage(props) {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   );
 }

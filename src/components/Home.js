@@ -10,8 +10,7 @@ import {
   FadeTransform,
   
 } from "react-animation-components";
-// import {svgImg } from '//images/009-Painter.svg';
-
+import { Footer } from "./Footer" ;
 
 export default function Home() {
   const svgImg = "images/009-Painter.svg";
@@ -180,9 +179,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      {/* Add big Carousel of the images of all products
-        add 
-        */}
+      <Footer />
     </div>
   );
 }

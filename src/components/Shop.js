@@ -5,7 +5,8 @@ import { data } from "../data/data-info";
 import { Header } from "./Header";
 import ItemCard from "./ItemCard";
 import { Fade} from "react-animation-components";
-// import ItemPage from "./ItemPage";
+import { Footer } from "./Footer" ;
+
 
 export default function Shop() {
   const { products } = data;
@@ -56,6 +57,7 @@ export default function Shop() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }
