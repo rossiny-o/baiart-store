@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "https://rossiny-o.github.io/baiart-store/static/css/main.f8dc1278.css",
-    "main.js": "https://rossiny-o.github.io/baiart-store/static/js/main.26305d37.js",
+    "main.css": "https://rossiny-o.github.io/baiart-store/static/css/main.54267e9a.css",
+    "main.js": "https://rossiny-o.github.io/baiart-store/static/js/main.20a7947f.js",
     "index.html": "https://rossiny-o.github.io/baiart-store/index.html",
-    "main.f8dc1278.css.map": "https://rossiny-o.github.io/baiart-store/static/css/main.f8dc1278.css.map",
-    "main.26305d37.js.map": "https://rossiny-o.github.io/baiart-store/static/js/main.26305d37.js.map"
+    "main.54267e9a.css.map": "https://rossiny-o.github.io/baiart-store/static/css/main.54267e9a.css.map",
+    "main.20a7947f.js.map": "https://rossiny-o.github.io/baiart-store/static/js/main.20a7947f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8dc1278.css",
-    "static/js/main.26305d37.js"
+    "static/css/main.54267e9a.css",
+    "static/js/main.20a7947f.js"
   ]
 }
