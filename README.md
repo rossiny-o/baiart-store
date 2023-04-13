@@ -11,7 +11,7 @@ Technologies Used
 This front-end was built using React, a popular JavaScript library for building user interfaces. It also uses HTML, CSS, and Bootstrap for styling and layout.
 
 # Getting Started
-To view the live demo of the Baiart Store website, simply navigate to https://baiart-store.netlify.app/ in your web browser.
+To view the live demo of the Baiart Store website, simply navigate to [https://rossiny-o.github.io/baiart-store] in your web browser.
 
 To run the front-end locally on your own machine, follow these steps:
 
